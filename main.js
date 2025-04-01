@@ -295,7 +295,7 @@ const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['LoliBot-MD', 'Edge', '20.0.04'] : methodCodeQR ? ['LoliBot-MD', 'Edge', '20.0.04'] : ["Ubuntu", "Chrome", "20.0.04"],
+browser: opcion == '1' ? ['AamonBot-MD', 'Edge', '20.0.04'] : methodCodeQR ? ['AamonBot-MD', 'Edge', '20.0.04'] : ["Ubuntu", "Chrome", "20.0.04"],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -329,7 +329,7 @@ auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
 },
-browser: opcion == '1' ? ['LoliBot-MD', 'Edge', '20.0.04'] : methodCodeQR ? ['LoliBot-MD', 'Edge', '20.0.04'] : ["Ubuntu", "Chrome", "20.0.04"],
+browser: opcion == '1' ? ['AamonBot-MD', 'Edge', '20.0.04'] : methodCodeQR ? ['AamonBot-MD', 'Edge', '20.0.04'] : ["Ubuntu", "Chrome", "20.0.04"],
 version: version, 
 generateHighQualityLinkPreview: true, 
 markOnlineOnConnect: false, 
@@ -499,7 +499,7 @@ async function setWelcomeMessage() {
 conn.welcome = `${await tr("Hola!!")} @user ${await tr("¿COMO ESTAS?")}😃\n\n『${await tr("Bienvenido A")} *@subject*』\n\n${await tr("Un gusto conocerte amig@")} 🤗\n\n_${await tr("Recuerda leer las reglas del grupo para no tener ningun problema")} 🧐_\n\n*${await tr("Solo disfrutar de este grupo y divertite")} 🥳*`
 conn.bye = `${await tr("Bueno, se fue")} @user 👋\n\n${await tr("Que dios lo bendiga")} 😎`
 conn.spromote = 'Hey @user ya forma parte de staff 👑'
-conn.sdemote = 'jajaja @user ya no eres admins'
+conn.sdemote = 'jajaja @user ya no eres admin'
 conn.sDesc = 'La descripción ha sido cambiada a \n@desc'
 conn.sSubject = 'El nombre del grupo ha sido cambiado a \n@group'
 conn.sIcon = 'El icono del grupo ha sido cambiado'
