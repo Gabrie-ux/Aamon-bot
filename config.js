@@ -50,11 +50,11 @@ global.author = 'elrebelde21'
 
 global.wm = '𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿' 
 global.vs = '1.9.8'
-global.yt = 'https://www.youtube.com/@elrebelde.21'
+global.yt = ''
 global.tiktok = 'https://www.tiktok.com/@elrebelde.21'
-global.md = 'https://github.com/elrebelde21/LoliBot-MD'
-global.fb = 'https://www.facebook.com/elrebelde21'
-global.face = 'https://www.facebook.com/groups/872989990425789/'
+global.md = 'https://github.com/Gabrie-ux/Aamon-bot'
+global.fb = ''
+global.face = ''
 
 global.nna = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A' //Update
 global.nna2 = 'https://whatsapp.com/channel/0029Vau57ykEwEk5CgosvU3v' //LoliBot update
@@ -108,15 +108,15 @@ global.maxwarn = '4' // máxima advertencias
 //---------------[ IDs de canales ]----------------
 
 global.ch = {
-ch1: '120363297379773397@newsletter', 
-ch2: '120363355261011910@newsletter', 
-ch3: '120363160031023229@newsletter',
-ch4: '120363301598733462@newsletter',
-ch5: '120363374372683775@newsletter', 
-ch6: '120363388040813284@newsletter',
-ch7: '120363419483367014@newsletter',  
-ch8: '120363397276648807@newsletter',
-ch9: '120363343811229130@newsletter',
+ch1: '', 
+ch2: '', 
+ch3: '',
+ch4: '',
+ch5: '', 
+ch6: '',
+ch7: '',  
+ch8: '',
+ch9: '',
 }
 
 //----------------------------------------------------
