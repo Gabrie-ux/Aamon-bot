@@ -10,7 +10,8 @@ import { tr, translateText } from './lib/_checkLang.js';
 
 //---------[ Añada los numeros a ser Propietario/a ]---------
 
-global.owner = [['5214774444444', 'ＰＲＯＰＩＥＴＡＲＩＯ', true], [''], [''], [''], [''], [''], [''], [''], [''], [''], [''], ['']]
+global.owner = [['+
+50557333744', 'ＰＲＯＰＩＥＴＡＲＩＯ', true], [''], [''], [''], [''], [''], [''], [''], [''], [''], [''], ['']]
 global.mods = []
 global.prems = []
 
