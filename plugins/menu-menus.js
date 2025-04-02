@@ -46,7 +46,7 @@ before: `「 %wm 」
 
 *• %msgRegUser:* %toUserReg de %toUsers
 
-${[`*\`✅ %msg2\`*\nhttps://youtu.be/z2kHwbu8e8s?si=M9iHLdVv7yXe_dvJ`, `%msg3\nhttps://whatsapp.com/channel/0029Vau57ykEwEk5CgosvU3v`, `❤ %msg4\nhttps://www.tiktok.com/@elrebelde.21`].getRandom()}
+${[`*\`✅ %msg2\`*\nputo`].getRandom()}
 
 `.trimStart(),
   header: ' `<[ %category ]>` ',
