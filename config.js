@@ -10,12 +10,12 @@ import { tr, translateText } from './lib/_checkLang.js';
 
 //---------[ Añada los numeros a ser Propietario/a ]---------
 
-global.owner = [['941658192', 'ＰＲＯＰＩＥＴＡＲＩＯ', true], ['50557333744','JonathanG', true], [''], [''], [''], [''], [''], [''], [''], [''], [''], ['']]
+global.owner = [['51941658192', 'ＰＲＯＰＩＥＴＡＲＩＯ', true], ['50557333744','JonathanG', true], [''], [''], [''], [''], [''], [''], [''], [''], [''], ['']]
 global.mods = []
 global.prems = []
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
-global.botNumberCode = "" //Ejemplo:+941658192
+global.botNumberCode = "" //Ejemplo:+5288****
 global.confirmCode = "" 
 global.gataJadibts = true //cambia a false Desactivar en "auto-reconexion" de sub-bots
 
