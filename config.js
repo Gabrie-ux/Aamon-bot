@@ -43,12 +43,12 @@ global.moment = moment
 
 //------------------------[ Stickers ]-----------------------------
 
-global.packname = 'aamonbot'
+global.packname = 'hayabusabot'
 global.author = 'jhonatan'
 
 //------------[ Versión | Nombre | cuentas ]------------
 
-global.wm = 'AAMON-𝙈𝘿' 
+global.wm = 'HAYABUSA-𝙈𝘿' 
 global.vs = '1.9.8'
 global.yt = ''
 global.tiktok = 'https://www.tiktok.com/@elrebelde.21'
