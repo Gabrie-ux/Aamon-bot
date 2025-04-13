@@ -32,7 +32,7 @@ let crm3 = "SBpbmZvLWRvbmFyLmpz"
 let crm4 = "IF9hdXRvcmVzcG9uZGVyLmpzIGluZm8tYm90Lmpz"
 let drm1 = "CkphZGlib3QsIEhlY2hv"
 let drm2 = "IHBvciBAQWlkZW5fTm90TG9naWM"
-let rtx = `*🔰 LoliBot-MD 🔰*\nㅤㅤㅤㅤ*${await tr("Ser sub bot")}*\n\n*${await tr("Con otro telefono que tengas o en la PC escanea este QR para convertirte en un sub bot")}*\n\n*${await tr("1. Haga clic en los tres puntos en la esquina superior derecha")}*\n*${await tr("2. Toca WhatsApp Web")}*\n*${await tr("3. Escanee este codigo QR")}*\n*${await tr("Este código QR expira en 45 segundos!")}*\n\n> *⚠️ ${await tr("No nos hacemos responsable del mal uso que se le pueda dar o si el numero se manda a soporte.. ustedes tienen el deber se seguir al pie de la letra los terminos y condiciones y privacidad (escribe eso y te los dará)")}*`
+let rtx = `*🔰HayabusaBot-MD 🔰*\nㅤㅤㅤㅤ*${await tr("Ser sub bot")}*\n\n*${await tr("Con otro telefono que tengas o en la PC escanea este QR para convertirte en un sub bot")}*\n\n*${await tr("1. Haga clic en los tres puntos en la esquina superior derecha")}*\n*${await tr("2. Toca WhatsApp Web")}*\n*${await tr("3. Escanee este codigo QR")}*\n*${await tr("Este código QR expira en 45 segundos!")}*\n\n> *⚠️ ${await tr("No nos hacemos responsable del mal uso que se le pueda dar o si el numero se manda a soporte.. ustedes tienen el deber se seguir al pie de la letra los terminos y condiciones y privacidad (escribe eso y te los dará)")}*`
 let rtx2 = `🟢 *_${await tr("NUEVA FUNCIÓN DE HACERTE UN SUB BOT")}_* 🟢
 
 *1️⃣ ${await tr("Diríjase en los tres puntos en la esquina superior derecha")}*
@@ -131,7 +131,7 @@ if (store) {
 //const msg = store.loadMessage(key.remoteJid, key.id)
 //return msg.message && undefined
 } return {
-conversation: 'LoliBot-MD',
+conversation: ‘HayabusaBot-MD',
 }}}
 */
 
