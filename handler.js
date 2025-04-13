@@ -641,7 +641,7 @@ for (let nk of callUpdate) {
 if (nk.isGroup == false) {
 if (nk.status == "offer") {
 let callmsg = await this.reply(nk.from, `ʜᴏʟᴀ *@${nk.from.split('@')[0]}*, ʟᴀs ${nk.isVideo ? 'videollamadas' : 'llamadas'} ɴᴏ ᴇsᴛᴀɴ ᴘᴇʀᴍɪᴛɪᴅᴀs, sᴇʀᴀs ʙʟᴏǫᴜᴇᴀᴅᴏ.\n\nsɪ ᴀᴄᴄɪᴅᴇɴᴛᴀʟᴍᴇɴᴛᴇ ʟʟᴀᴍᴀsᴛᴇ ᴘᴏɴɢᴀsᴇ ᴇɴ ᴄᴏɴᴛᴀᴄᴛᴏ ᴄᴏɴ ᴍɪ ᴄʀᴇᴀᴅᴏʀ ᴘᴀʀᴀ ǫᴜᴇ ᴛᴇ ᴅᴇsʙʟᴏǫᴜᴇᴇ!\n\nɢʀᴜᴘᴏ ᴀsɪsᴛᴇɴᴄɪᴀ ғᴀᴄᴇʙᴏᴏᴋ: ${fb}`, false, { mentions: [nk.from] })
-let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿 👑;;;\nFN:𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿\nORG:𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿 👑\nTITLE:\nitem1.TEL;waid=5214774444444:+52 477 444 4444\nitem1.X-ABLabel:𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿 👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴇsᴄʀɪʙɪ sᴏʟᴏ ᴘᴏʀ ᴄᴏsᴀs ᴅᴇʟ ʙᴏᴛ.\nX-WA-BIZ-NAME:𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿 👑\nEND:VCARD`
+let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿 👑;;;\nFN:𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿\nORG:𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿 👑\nTITLE:\nitem1.TEL;waid=5214774444444:+52 477 444 4444\nitem1.X-ABLabel:Hayabusa𝘽𝙤𝙩-𝙈𝘿 👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴇsᴄʀɪʙɪ sᴏʟᴏ ᴘᴏʀ ᴄᴏsᴀs ᴅᴇʟ ʙᴏᴛ.\nX-WA-BIZ-NAME:𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿 👑\nEND:VCARD`
 await this.sendMessage(nk.from, { contacts: { displayName: '𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿 👑', contacts: [{ vcard }] }}, {quoted: callmsg})
 await this.updateBlockStatus(nk.from, 'block')
 }}}}
